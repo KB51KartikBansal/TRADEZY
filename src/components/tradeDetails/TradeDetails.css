@@ -1,0 +1,129 @@
+
+.transparent{
+    opacity: 0.7;
+}
+.border{
+    border-color: black;
+    border-style: solid;
+}
+
+th, td { white-space: nowrap; text-align: center;}
+
+.trade-detail-header {
+    /* color: linear-gradient(to right, rgb(246, 211, 101), rgb(253, 160, 133)); */
+    background-image:linear-gradient(to right, rgb(246, 211, 101), rgb(253, 160, 133));
+    background-clip: text;
+    color: transparent;
+}
+.hidden-element{
+    border: 0;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; 
+}
+.height-component{
+    min-height: 90vh;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.trade-detail-ddn .dropdown-toggle::after {
+    display: none ;
+
+}
+.trade-detail-ddn .dropdown-item:active {
+    background-color: var(--bs-light);
+
+}
+.trade-detail-font
+{
+
+}
+#nav-dropdown{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border-style: none;
+}
+.trade-detail-badge{
+  border-radius: 2px;
+  padding: 4px;
+}
+.wrap-white-space{
+    white-space: wrap; 
+}
+.badge-font{
+    font-weight: 550;
+    font-size:small;
+    text-transform: uppercase;
+}
+.execute-button-text{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.trade-details-time-text{
+    font-size: 9px;
+}
+@media only screen and (min-width:  0px) and (max-width : 575px){
+    .trade-detail-font{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width : 767px) {
+    .trade-detail-font{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .trade-detail-font{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1299px){
+    .trade-detail-font{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1500px){
+    .trade-detail-font{
+        font-size: 20px;
+    }
+    .badge-font{
+        font-weight: 550;
+        font-size:medium;
+        text-transform: uppercase;
+    }
+    .execute-button-text{
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .trade-details-time-text{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 1500px)  {
+    .trade-detail-font{
+        font-size: 22px;
+    }
+    .badge-font{
+        font-weight: 550;
+        font-size:large;
+        text-transform: uppercase;
+    }
+    .execute-button-text{
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .trade-details-time-text{
+        font-size: 13px;
+    }
+}
+

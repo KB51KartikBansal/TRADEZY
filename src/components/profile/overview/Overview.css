@@ -1,0 +1,13 @@
+table {
+    width: 100%;
+    color: #323131;
+}
+
+.label-css {
+    font-weight: 600;
+    color: rgba(1, 41, 112, 0.6);
+}
+
+.row-css {
+    padding-top: 20px;
+}

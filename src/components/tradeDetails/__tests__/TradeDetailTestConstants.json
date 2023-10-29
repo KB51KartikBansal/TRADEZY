@@ -1,0 +1,41 @@
+{
+    "tradeDetailId": "2c6f51ed-0ea2-477a-9b5b-ae0f592331445",
+  
+    "userId": 1,
+  
+    "ticker": {
+  
+        "tickerNumber": 45681,
+  
+        "tickerName": "ICICI Bank Ltd",
+  
+        "tickerId": "ICICI.BNK",
+  
+        "tickerType": "stock"
+  
+    },
+  
+    "timeframe": 1440,
+  
+    "tradeDirection": "buy",
+  
+    "createdAt": "2022-09-25T18:30:00.000+00:00",
+  
+    "pricePerTicker": 300.0,
+  
+    "quantity": 5,
+  
+    "totalCost": 1500.0,
+  
+    "stopLoss": 5.0,
+  
+    "profitTarget": 0.5,
+  
+    "status": "insufficient_funds",
+  
+    "tradeAlert": null,
+  
+    "gain": null,
+  
+    "riskToRewardRatio": 10.0
+  }

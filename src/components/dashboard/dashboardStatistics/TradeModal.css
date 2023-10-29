@@ -1,0 +1,51 @@
+.modal-title{
+    line-height: 0.7;
+}
+.modal-title{
+    padding: 1rem 1rem;
+}
+.header-text-custom{
+    line-height: 1;
+}
+
+.card{
+    background-color: #f1f2f7;
+    border-radius: 6%;
+    margin: 1%;
+    box-shadow: 1px 2px 2px 2px #969696;
+    vertical-align: middle;
+    text-align: center;
+    padding-bottom: 1%;
+}
+.row1{
+    padding-left:10%;
+}
+.row3{
+    padding-left: 5%;
+}
+.input-group{
+    justify-content: center;
+}
+
+.quantity-button{
+    width: 10%;
+    text-align: center;
+}
+.increment{
+    background-color: blue;
+}
+.decrement{
+    background-color:crimson;
+}
+.quantity-button:hover{
+    cursor: pointer;
+}
+
+.form-control.is-invalid{
+    background: none;
+    padding :0px;
+}
+.form-control.is-valid{
+    background: none;
+    padding :0px;
+}

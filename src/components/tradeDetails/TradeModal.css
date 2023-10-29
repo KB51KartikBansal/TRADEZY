@@ -1,0 +1,89 @@
+.modal-title{
+    line-height: 0.7;
+}
+.modal-title{
+    padding: 1rem 1rem;
+}
+.header-text-custom{
+    line-height: 1;
+}
+
+.row1{
+    margin-bottom: 2%;
+}
+.row3{
+    padding-left: 5%;
+}
+.input-group{
+    justify-content: center;
+}
+
+.quantity-button{
+    width: 10%;
+    text-align: center;
+}
+.increment{
+    background-color: blue;
+}
+.decrement{
+    background-color:crimson;
+}
+.quantity-button:hover{
+    cursor: pointer;
+}
+
+.form-control.is-invalid{
+    background: none;
+    padding :0px;
+}
+.form-control.is-valid{
+    background: none;
+    padding :0px;
+}
+
+.modal-field-header{
+    margin-bottom: 0;
+}
+.modal-button-label{
+    background-color: #f1f2f7;
+}
+
+.disable-button{
+    pointer-events: none;
+}
+.badge-font-modal{
+    font-weight: 550;
+    text-transform: uppercase;
+}
+.execute-button-text{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.time-text{
+    font-size: 12px;
+}
+@media only screen and (max-width:490px){
+    .modal-header{
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .header-text-custom{
+        font-size: large;
+    }
+    .modal-footer{
+        padding-top:1%;
+        padding-bottom: 1%;
+    }
+    .modal-body{
+        font-size: smaller;
+    }
+    .execute-button-text{
+        font-size: 12px;
+    }
+    .modal-fields-text{
+        font-size: smaller;
+    }
+    .plus-minus-button{
+        padding: revert;
+    }
+}

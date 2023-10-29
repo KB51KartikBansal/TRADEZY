@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.input-label_login {
+  font-size: 12px;
+  text-transform: none;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  color: #3454cf;
+  transition: 0.3s;
+ 
+}
+.input-button_login {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  margin: 20px 0px 10px;
+  text-transform: none;
+  border: 0;
+  color: #fff;
+  border-radius: 8px;
+  background: #3454cf;
+  transition: 0.3s;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+}
+.title_login {
+  margin: 10px 0px 30px;
+  font-size: 35px;
+  color: #3454cf;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+}
+.frm-btns button:hover {
+  background: #d88a0c;
+  color: antiquewhite;
+}
+.signin_success {
+  background: #005baa;
+}
+
+.signin_success h1 {
+  letter-spacing: 1px;
+}
+
+.signin_success p {
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+.textlabel_login {
+  display: flex;
+  
+  flex-direction: column;
+  padding: 10px 10px 4px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px; 
+  font-family: "Nunito", sans-serif;
+  transition: 0.3s;
+}
+.textlabel_login input {
+  outline: 0;
+  border: 0;
+  padding: 4px 0 0;
+  font-size: 14px;
+}
+
+.textlabel_login input::-moz-placeholder {
+  color: #ccc;
+  opacity: 1;
+ 
+}
+.textlabel_login input:-ms-input-placeholder {
+  color: #ccc;
+  opacity: 1;
+  
+}
+.textlabel_login input::placeholder {
+  color: #ccc;
+  opacity: 1;
+ 
+}
+.textlabel_login:focus-within {
+  border-color: #3454cf;
+  
+
+}
+.textlabel_login:focus-within .input-label_login {
+  color: #3454cf;
+  
+}
+h2 {
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 15px;
+}
+
+.error_msg_login {
+  color: #ff0000e0;
+  font-size: 13px;
+  font-weight: 550;
+  padding: 0px;
+  text-align: left;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  font-family: "Nunito", sans-serif;
+}
+
+span.signup_for_login {
+  color: #3454cf;
+  cursor: pointer;
+ 
+  
+}
+signup_for_login{
+  font-family: "Nunito", sans-serif;
+ 
+ 
+}
+
+span.forgotpassword {
+  color: #3454cf;
+  cursor: pointer;
+  
+}
+
+h5 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#image {
+  width: inherit;
+  height: 50%;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-top: 17%;
+}
+
+
+.forgotpassword {
+  color: #3454cf;
+margin-bottom: 40px;
+ display: flex;
+ justify-content: right;
+  font-size: 13px;
+  font-family: "Nunito", sans-serif;
+}
+
+.loginParentContainer {
+  /* margin: 30px 110px 90px 150px; */
+  /* display: flex; */
+
+  background: linear-gradient(to top, rgb(255, 236, 210), rgb(252, 182, 159));
+
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginContainer {
+  
+  background-color: white;
+ width: 60%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: initial;
+  justify-content:center;
+  align-items: center;
+}
+.carousel {
+  width:  100%;
+ 
+  height: 100% ;
+}
+
+.loginHeader {
+  padding: 0px 40px 0px 40px;
+  height: 100%;
+  width: 70%;
+
+ 
+}
+.carousel-image {
+  height: 100vh;
+ 
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+.checksignup_login {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: "Nunito", sans-serif;
+
+  
+}
+
+@media only screen and (max-width: 480px) {
+  .carousel {
+    display: none;
+  }
+  .loginContainer{
+  width: 100%;
+ 
+  }
+  .loginHeader{
+    width: 100%;
+    height: 70%;
+  }
+  
+}
+
+@media only screen and (min-width: 480px) and (max-width: 700px){
+  .loginContainer{
+    width: 75%;
+   
+   
+    }
+    .loginHeader{
+      width: 100%; 
+    
+    
+    }
+    .carousel {
+      display: none;
+     
+    }
+    .loginParentContainer{
+      height: 100vh;
+    }
+    
+   
+}

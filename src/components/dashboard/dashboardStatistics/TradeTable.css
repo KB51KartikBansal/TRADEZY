@@ -1,0 +1,30 @@
+.trade-table{
+    min-width: 100%;
+    padding-left: 1rem;
+}
+
+.btn-size{
+    font-size: inherit;
+}
+
+.not-found-card{
+    height: 91vh;
+}
+
+@media (max-width: 550px) and (min-width:250px){
+    .trade-table{
+        font-size: x-small;
+    }
+    .not-found-card{
+        padding: 0px;
+    }
+  }
+  @media (max-width:250px){
+    .trade-table{
+        font-size: x-small;
+    }
+    .not-found-card{
+        padding: 0px;
+        height: 75vh;
+    }
+  }

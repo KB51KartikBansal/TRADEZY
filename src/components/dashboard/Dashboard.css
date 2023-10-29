@@ -1,0 +1,27 @@
+.dashboard-container{
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and  (min-width:573px) and (max-width:767px) {
+    .dashboard-container{
+        height: fit-content;
+        background-color: #f1f2f7;
+    }
+}
+@media only screen and (max-width:573px)
+{
+    .dashboard-container{
+        height: fit-content;
+        background-color: #f1f2f7;
+    }
+  
+}
+.clickable{
+   cursor: pointer;
+}
+.nonClickable{
+    cursor: default;
+}

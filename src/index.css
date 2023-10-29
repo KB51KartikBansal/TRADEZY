@@ -1,0 +1,5 @@
+body{
+    
+    background: "linear-gradient(to right, rgb(93, 116, 218), rgb(161, 111, 211));";
+    height: device-height;
+}

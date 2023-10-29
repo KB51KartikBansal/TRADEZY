@@ -1,0 +1,26 @@
+.sub-btn {
+  font-size: large;
+  border: none;
+  padding: 0px 10px 0px 10px;
+  color: rgb(247, 72, 72);
+ 
+  background-color: white;
+}
+
+.sub-btn2 {
+  font-size: large;
+  border: none;
+  padding: 0px 10px 0px 10px;
+  color: rgb(110, 148, 231);
+ 
+  background-color: white;
+}
+
+.txt{
+    color: rgb(110, 148, 231);
+}
+.container{
+
+  margin-bottom: 2px;
+  
+}
